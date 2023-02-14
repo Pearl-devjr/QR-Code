@@ -1,4 +1,4 @@
-body{
+body {
     display: block;
     justify-content: center;
     background-color: hsl(212, 45%, 89%);
@@ -20,6 +20,7 @@ body{
     margin: auto;
     margin-top: 25%;
     margin-bottom: 25%;
+    padding: 15px;
 }
 
 p{
@@ -27,20 +28,23 @@ p{
     text-align: center;
     padding: 0px 10px;
     word-spacing: 0.5pt;
+    font-family: 'Outfit', sans-serif;
 }
 
 #para1{
     font-weight: Regular 400;
     font-size: 14pt;
     text-shadow: 0px 0.5px 0.5px rgba(0,0,0,0.5) ;
-    padding: 0px 30px;    
+    padding: 0px 30px;
+    
 }
 
 #para2{
     color: hsl(220, 15%, 55%);
     font-weight: Bold 700;
     padding: 0px 30px 50px;
-    font-size: 10pt;    
+    font-size: 10pt;
+    
 }
 
 a:link{
@@ -52,9 +56,8 @@ a:visited{
 }
 
 img{
-    width: 100%;
-    padding: 15px;
-    border-radius: 25px;
+    width: 100%;   
+    border-radius: 15px;
 }
 
 .att{
